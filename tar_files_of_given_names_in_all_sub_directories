@@ -1,1 +1,4 @@
 find ./ -type f \( -name "fort.7*" -o -name "results" -o -name "parameters*" -o -name "dataPA" \) -exec tar -cf 3Ag_vertical.gz '{}' \+
+
+
+# source : https://serverfault.com/questions/238221/how-do-you-only-tar-files-in-a-directory-based-on-a-specific-file-name
