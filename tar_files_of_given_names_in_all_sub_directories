@@ -1,0 +1,1 @@
+find ./ -type f \( -name "fort.7*" -o -name "results" -o -name "parameters*" -o -name "dataPA" \) -exec tar -cf 3Ag_vertical.gz '{}' \+
